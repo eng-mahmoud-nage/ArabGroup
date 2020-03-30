@@ -1,0 +1,311 @@
+table tr {
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    background-color: rgb(63, 121, 122, 0.5);
+}
+
+input[type=submit] {
+    background: #00B5B8;
+    color: #fff;
+    display: block;
+    padding: 7px 12px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+.table th,
+.table td {
+    vertical-align: middle !important;
+}
+
+
+/* //datatable */
+
+input .f_search {
+    width: 100px;
+}
+
+.app-sidebar .navigation li.has-sub>a:after,
+.off-canvas-sidebar .navigation li.has-sub>a:after {
+    right: auto;
+    left: 10px
+}
+
+.app-sidebar .navigation i {
+    float: right;
+}
+
+.app-sidebar .navigation .badge.badge-pill,
+.off-canvas-sidebar .navigation .badge.badge-pill {
+    left: 28px;
+    right: auto;
+}
+
+.app-sidebar .navigation li ul li a,
+.off-canvas-sidebar .navigation li ul li a {
+    display: block;
+    padding: 8px 60px 8px 18px;
+}
+
+.app-sidebar .navigation li>a,
+.off-canvas-sidebar .navigation li>a {
+    padding: 10px 14px 10px 14px;
+}
+
+.app-sidebar,
+.off-canvas-sidebar {
+    left: auto;
+    right: 0;
+}
+
+.customizer #rtl-icon {
+    right: -54px !important;
+    right: auto;
+}
+
+.customizer .customizer-toggle {
+    right: -54px;
+    left: auto;
+}
+
+.customizer {
+    left: -400px;
+    right: auto;
+}
+
+.customizer.open {
+    left: 0;
+    right: auto;
+}
+
+#notification-sidebar {
+    left: -400px;
+    right: auto;
+}
+
+#notification-sidebar.open {
+    left: 0;
+    right: auto;
+}
+
+@media (min-width: 992px) {
+    .main-panel .main-content {
+        padding-right: 250px;
+        padding-left: 0;
+    }
+    .navbar .navbar-container {
+        direction: ltr;
+    }
+    .navbar-nav>li {
+        float: right;
+    }
+}
+
+.content-header,
+.form-group,
+.card-header {
+    text-align: right;
+}
+
+.row {
+    direction: rtl;
+}
+
+select {
+    direction: rtl;
+}
+
+.main-content .wizard>.steps>ul>li:before {
+    right: 0;
+    left: auto;
+}
+
+.main-content .wizard>.steps>ul>li:after {
+    right: auto;
+    left: 0;
+}
+
+.app-sidebar.hide-sidebar,
+.off-canvas-sidebar.hide-sidebar {
+    transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+}
+
+@media (max-width: 1010px) {
+    nav.navbar.header-navbar {
+        right: 0px;
+        left: 0px;
+    }
+}
+
+
+/* // datatable */
+
+#data-table {
+    direction: rtl;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+
+.dt-buttons {
+    direction: rtl;
+    float: right;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    text-align: right;
+}
+
+.close {
+    float: left !important;
+}
+
+div.dataTables_wrapper div.dataTables_length label {
+    float: right;
+}
+
+.content-header .breadcrumb {
+    direction: rtl;
+}
+
+
+/* // sidebar and navbar rtl start */
+
+:not(.layout-fixed) .main-sidebar {
+    right: 0;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.sidebar-collapse .main-sidebar,
+.sidebar-collapse .main-sidebar::before {
+    display: none;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 991.98px) {
+    body:not(.sidebar-mini-md) .content-wrapper,
+    body:not(.sidebar-mini-md) .content-wrapper::before,
+    body:not(.sidebar-mini-md) .main-footer,
+    body:not(.sidebar-mini-md) .main-footer::before,
+    body:not(.sidebar-mini-md) .main-header,
+    body:not(.sidebar-mini-md) .main-header::before {
+        margin-right: 250px;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .sidebar-mini.sidebar-collapse .main-sidebar,
+    .sidebar-mini.sidebar-collapse .main-sidebar::before {
+        margin-right: 0;
+        margin-left: auto;
+        display: block;
+    }
+    .sidebar-mini.sidebar-collapse .content-wrapper,
+    .sidebar-mini.sidebar-collapse .main-footer,
+    .sidebar-mini.sidebar-collapse .main-header {
+        margin-right: 4.6rem!important;
+        margin-left: auto !important;
+    }
+}
+
+
+/* 
+@media (min-width: 768px) {
+    body:not(.sidebar-mini-md) .content-wrapper,
+    body:not(.sidebar-mini-md) .main-footer,
+    body:not(.sidebar-mini-md) .main-header {
+        transition: margin-right .3s ease-in-out;
+        margin-left: 0 !important;
+        margin-right: 0px;
+        -webkit-transition: margin-right .3s ease-in-out;
+        -moz-transition: margin-right .3s ease-in-out;
+        -ms-transition: margin-right .3s ease-in-out;
+        -o-transition: margin-right .3s ease-in-out;
+    }
+} */
+
+@media (max-width: 768px) {
+    body:not(.sidebar-mini-md) .content-wrapper,
+    body:not(.sidebar-mini-md) .main-footer,
+    body:not(.sidebar-mini-md) .main-header {
+        margin-left: 0 !important;
+        margin-right: 0px;
+        -webkit-transition: margin-right .3s ease-in-out;
+        -moz-transition: margin-right .3s ease-in-out;
+        -ms-transition: margin-right .3s ease-in-out;
+        -o-transition: margin-right .3s ease-in-out;
+    }
+}
+
+:not(.layout-fixed) .main-sidebar {
+    direction: rtl;
+    text-align: right;
+}
+
+.nav-sidebar .nav-link>.right,
+.nav-sidebar .nav-link>p>.right {
+    right: 11rem;
+}
+
+.nav-sidebar .nav-item>.nav-link {
+    right: -40px;
+}
+
+.user-panel .image {
+    margin-right: 10px;
+}
+
+.brand-link .brand-image {
+    margin-right: 10px;
+    float: right;
+}
+
+.navbar {
+    direction: rtl !important;
+    justify-content: space-between !important;
+}
+
+.control-sidebar-slide-open .control-sidebar,
+.control-sidebar-slide-open .control-sidebar::before {
+    left: 0 !important;
+}
+
+.control-sidebar,
+.control-sidebar::before {
+    left: -250px;
+    right: auto;
+}
+
+
+/* // sidebar and navbar rtl end */
+
+
+/* // editor start */
+
+.card-header.note-toolbar .dropdown-menu {
+    min-width: 200px;
+    right: 0;
+    left: auto;
+}
+
+
+/* // editor end */
